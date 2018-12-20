@@ -3,11 +3,11 @@
 using namespace std;
 
 int main(){
-    cout << "\nHoroscope 2015 by Kyle Santiago\n";
+    cout << "Horoscope 2015 by Kyle Santiago\n";
     cout << "Horoscope information provided by astrology.horoscope.com\n\n";
-    cout << "Please enter the month you were born in: \n";
     cout << "1: January\n2: February\n3: March\n4: April\n5: May\n6: June\n7: July\n8: August\n9: September\n10: October\n11: November\n12: December\n";
     int month;
+    cout << "\nPlease enter the month you were born in: ";
     cin >> month;
     cout << "Please enter the day you were born: ";
     int day;
@@ -156,5 +156,9 @@ int main(){
     {
         cout << "Make a major new start in 2015, Capricorn, or perhaps several minor ones. Let your heart and passion be your guides. Then be your own best friend rather than your own worst enemy. (All unlike you, I know!) Trust your gut. A slowly forming Jupiter-Saturn square (not perfected until August) will help keep you from going too far, too fast, or off track. Family supports you in a big way, perhaps wondering what took you so long. You have great ambition and energy for your work this year, and also great compassion. Your Capricorn year actually starts with the Capricorn New Moon (December 21, 2014). The day before, a Mars-Uranus sextile guarantees that you'll try your best and invent whatever you need, and the Venus-Pluto conjunction makes sure that you're noticed. Go out there and be amazing! Find healthy ways to de-stress and to nurture and encourage yourself. This becomes increasingly important as the year progresses. Remember, it's not failure if it doesn't work the first time. Persist!\n";
         system("PAUSE");
+    }
+    else
+    {
+        cout << "Please insert a valid answer.";
     }
 }
