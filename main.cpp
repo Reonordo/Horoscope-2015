@@ -23,6 +23,7 @@ int main(){
     if (month == 2 && (day >= 1 && day <= 19))
     {
         cout << "2015 sees you firmly in control of your own world, Aquarius, as well as prominent and lucky in public. Jupiter is at the top of your chart all year. You can keep your private goals and desires private and still shine and work wonders for others. Any nervousness won't show in your appearance or how you present yourself. Saturn in fiery Sagittarius supports you. Friends and family will see how hard you work and won't slow you down. But if you want help, just ask. Mercury and Venus in Aquarius oppose Jupiter and anchor your chart for the year. Mercury goes retrograde in Aquarius (January 21-February 11), making you sharper and more cautious. Your health looks strong, but overdoing things will be an ongoing concern. Be safe and avoid silly, careless accidents. It's a very well-balanced but high energy year, Aquarius!\n";
+        system("PAUSE");
     }
     //Pisces
     if (month == 2 && (day >= 20 && day <= 28))
